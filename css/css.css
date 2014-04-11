@@ -1,0 +1,391 @@
+@font-face { 
+	font-family: 'Fedra Mono Normal'; 
+	src: url('../fonts/fedra_mono_normal.eot'); 
+	src: url('../fonts/fedra_mono_normal.woff') format('woff'); 
+	src: url('../fonts/fedra_mono_normal.ttf') format('truetype'); 
+}
+body {
+	margin: 0;
+	min-width: 980px;
+	padding: 0
+}
+li {
+	list-style: none;
+}
+#cred li {
+	list-style: none;
+	margin: 0 0 20px 0;
+	font-size: 24px;
+}
+a {
+	font-family: 'Fedra Mono Normal';
+	padding: 0;
+	text-decoration: none;
+}
+p {
+	margin-top: 120px;
+}
+p,ul {
+	font-family: 'Fedra Mono Normal';
+	font-size: 14px;
+	line-height: 19px;
+	font-style: normal
+}
+img {
+	border: 0
+}
+.float-left {
+	float: left;
+	margin: 0;
+	z-index: 50
+}
+.float-left-end {
+	z-index: 1;
+	margin-left: 100px;
+	position: absolute
+}
+.float-right {
+	float: right;
+	margin: 0;
+	z-index: 50;
+}
+.center {
+	font-size: 2.5em;
+	padding: 80px 0;
+	text-align: center
+}
+.transform {
+	-ms-transform: rotate(-15deg); /* IE 9 */
+	-webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
+	transform: rotate(-15deg);
+}
+
+.margin {
+	margin:0 0 0 150px;
+}
+
+#nav {
+	list-style: none;
+	position: fixed;
+	left: 15%;
+	padding: 0 0 0 45px;
+	z-index: 100;
+	-ms-transform: rotate(-15deg); /* IE 9 */
+	-webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
+	transform: rotate(-15deg);
+	text-transform: uppercase;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+
+#nav a {
+	color: #0000FF;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out
+	text-decoration: none;
+}
+#nav a: hover {
+	padding-right: 10px
+}
+#nav li {
+	margin: 0 0 5px 0;
+	text-align: left;
+}
+.navbar {
+	display: none
+}
+#header,#one,#two {
+	width: 100%
+}
+#one {
+	color: white;
+	height: 1800px;
+	margin: 0;
+	padding: 0
+}
+#one .bg {
+	background: url(../img/head.png);
+	height: 245px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 642px;
+	z-index: 1
+}
+#two {
+	color: black;
+	height: 1200px;
+	margin: 0;
+	padding: 0
+}
+#two .bg {
+	background: url(../img/about.png);
+	height: 245px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 642px;
+	z-index: 1
+}
+#three {
+	color: black;
+	height: 1200px;
+	margin: 0;
+	padding: 0
+}
+#three .bg {
+	background: url(../img/parties.png);
+	height: 277px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 642px;
+	z-index: 1
+}
+#four {
+	color: black;
+	height: 1200px;
+	margin: 0;
+	padding: 0
+}
+#four .bg {
+	background: url(../img/podcasts.png);
+	height: 277px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 642px;
+	z-index: 1
+}
+#five {
+	color: black;
+	height: 1200px;
+	margin: 0;
+	padding: 0
+}
+#five .bg {
+	background: url(../img/contact.png);
+	height: 277px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 642px;
+	z-index: 1
+}
+#six {
+	background: #f90;
+	color: #333;
+	height: 1800px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#seven {
+	background: url(../img/green2.png) 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1800px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#seven .bg {
+	background: 50% 0 no-repeat fixed;
+	height: 1800px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 2
+}
+#eight {
+	background: 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1800px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#eight .bg2 {
+	background: 50% 0 no-repeat fixed;
+	height: 1800px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 3
+}
+#nine {
+	background: 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1800px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+@media only screen and (max-width: 1900px) and (max-height: 1200px) {
+#one {
+	color: white;
+	height: 1200px;
+	margin: 0;
+	padding: 0
+}
+#one .bg {
+	background: url(../img/head.png);
+	height: 245px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 642px;
+	z-index: 1
+}
+#two {
+	color: black;
+	height: 1200px;
+	margin: 0;
+	padding: 0
+}
+#two .bg {
+	background: url(../img/about.png);
+	height: 281px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 642px;
+	z-index: 1
+}
+#three {
+	color: black;
+	height: 1200px;
+	margin: 0;
+	padding: 0
+}
+#three .bg {
+	background: url(../img/parties.png);
+	height: 277px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 642px;
+	z-index: 1
+}
+#four {
+	color: black;
+	height: 1200px;
+	margin: 0;
+	padding: 0
+}
+#four .bg {
+	background: url(../img/podcasts.png);
+	height: 277px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 642px;
+	z-index: 1
+}
+#five {
+	color: black;
+	height: 1200px;
+	margin: 0;
+	padding: 0
+}
+#five .bg {
+	background: url(../img/contact.png);
+	height: 277px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 642px;
+	z-index: 1
+}
+#six {
+	background: #f90;
+	color: #333;
+	height: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#seven {
+	background: url(../img/green2.png) 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#seven .bg {
+	background: 50% 0 no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 2
+}
+#eight {
+	background: 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+#eight .bg2 {
+	background: 50% 0 no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 961px;
+	z-index: 3
+}
+#nine {
+	background: 50% 0 no-repeat fixed;
+	color: #333;
+	height: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
+}
+
+}
+.story {
+	left:15%;
+	position:absolute;
+	min-width: 980px;
+	width: 980px
+}
+.story .float-left,.story .float-right,.story .two-text {
+	padding: 220px 0 0 0;
+	position: relative;
+	width: 700px
+}
+.float-center-w {
+	padding: 200px 0 0 180px;
+	color: white
+}
+.float-center-v {
+	padding: 200px 0 0 100px
+}
+.float-left-clients {
+	float: left;
+	margin: 0;
+	z-index: 50;
+	padding: 200px 0 0 0;
+	position: relative;
+	width: 980px
+}
+.client-box {
+	float: left;
+	margin: 0
+}
+.clients {
+	height: 960px;
+	width: 920px;
+	background-color: white
+}
