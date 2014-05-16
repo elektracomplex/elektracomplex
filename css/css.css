@@ -110,7 +110,7 @@ ul {
 #one .bg {
 	background: url(../img/head.png);
 	height: 245px;
-	margin: 30px 0 0 0;
+	margin: 100px 0 0 0;
 	padding: 0;
 	position: absolute;
 	width: 642px;
@@ -125,7 +125,7 @@ ul {
 #two .bg {
 	background: url(../img/about.png);
 	height: 245px;
-	margin: 30px 0 0 0;
+	margin: 100px 0 0 0;
 	padding: 0;
 	position: absolute;
 	width: 642px;
@@ -140,7 +140,7 @@ ul {
 #three .bg {
 	background: url(../img/parties.png);
 	height: 277px;
-	margin: 30px 0 0 0;
+	margin: 100px 0 0 0;
 	padding: 0;
 	position: absolute;
 	width: 642px;
@@ -155,7 +155,7 @@ ul {
 #four .bg {
 	background: url(../img/podcasts.png);
 	height: 277px;
-	margin: 30px 0 0 0;
+	margin: 100px 0 0 0;
 	padding: 0;
 	position: absolute;
 	width: 642px;
@@ -170,7 +170,7 @@ ul {
 #five .bg {
 	background: url(../img/contact.png);
 	height: 277px;
-	margin: 30px 0 0 0;
+	margin: 100px 0 0 0;
 	padding: 0;
 	position: absolute;
 	width: 642px;
@@ -236,7 +236,7 @@ ul {
 #one .bg {
 	background: url(../img/head.png);
 	height: 245px;
-	margin: 30px 0 0 0;
+	margin: 100px 0 0 0;
 	padding: 0;
 	position: absolute;
 	width: 642px;
@@ -251,7 +251,7 @@ ul {
 #two .bg {
 	background: url(../img/about.png);
 	height: 281px;
-	margin: 30px 0 0 0;
+	margin: 100px 0 0 0;
 	padding: 0;
 	position: absolute;
 	width: 642px;
@@ -266,7 +266,7 @@ ul {
 #three .bg {
 	background: url(../img/parties.png);
 	height: 277px;
-	margin: 30px 0 0 0;
+	margin: 100px 0 0 0;
 	padding: 0;
 	position: absolute;
 	width: 642px;
@@ -281,7 +281,7 @@ ul {
 #four .bg {
 	background: url(../img/podcasts.png);
 	height: 277px;
-	margin: 30px 0 0 0;
+	margin: 100px 0 0 0;
 	padding: 0;
 	position: absolute;
 	width: 642px;
@@ -296,7 +296,7 @@ ul {
 #five .bg {
 	background: url(../img/contact.png);
 	height: 277px;
-	margin: 30px 0 0 0;
+	margin: 100px 0 0 0;
 	padding: 0;
 	position: absolute;
 	width: 642px;
