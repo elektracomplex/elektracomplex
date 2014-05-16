@@ -38,7 +38,7 @@ $(document).ready(function () {
 		var E = (G / 2);
 		var D = E - F;
 		$("#nav").css({
-			top: G/2
+			top: 3*G / 4
 		});
 		$("#end").css({
 			height: G
