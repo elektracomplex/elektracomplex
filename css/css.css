@@ -183,12 +183,19 @@ ul {
 	z-index: 1
 }
 #six {
-	background: #f90;
-	color: #333;
-	height: 1800px;
-	margin: 0 auto;
-	overflow: hidden;
+	color: black;
+	height: 1200px;
+	margin: 0;
 	padding: 0
+}
+#six .bg {
+	background: url(../img/contact.png);
+	height: 274px;
+	margin: 70px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 642px;
+	z-index: 1
 }
 #seven {
 	background: url(../img/green2.png) 50% 0 no-repeat fixed;
@@ -299,6 +306,12 @@ ul {
 	margin: 0;
 	padding: 0
 }
+#five {
+	color: black;
+	height: 1200px;
+	margin: 0;
+	padding: 0
+}
 #five .bg {
 	background: url(../img/contact.png);
 	height: 274px;
@@ -309,12 +322,19 @@ ul {
 	z-index: 1
 }
 #six {
-	background: #f90;
-	color: #333;
+	color: black;
 	height: 1200px;
-	margin: 0 auto;
-	overflow: hidden;
+	margin: 0;
 	padding: 0
+}
+#six .bg {
+	background: url(../img/contact.png);
+	height: 274px;
+	margin: 70px 0 0 0;
+	padding: 0;
+	position: absolute;
+	width: 642px;
+	z-index: 1
 }
 #seven {
 	background: url(../img/green2.png) 50% 0 no-repeat fixed;
