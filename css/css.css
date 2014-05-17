@@ -68,7 +68,7 @@ img {
 	list-style: none;
 	position: fixed;
 	left: 20%;
-	padding: 0 0 0 45px;
+	padding: 0 0 0 55px;
 	z-index: 100;
 	-ms-transform: rotate(-15deg); /* IE 9 */
 	-webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
