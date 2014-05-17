@@ -34,6 +34,12 @@ p,ul {
 img {
 	border: 0
 }
+photo {
+	float:right;
+}
+text {
+	padding-left:250px;
+}
 .float-left {
 	float: left;
 	margin: 0;
