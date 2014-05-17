@@ -34,10 +34,10 @@ p,ul {
 img {
 	border: 0
 }
-photo {
+.photo {
 	float:right;
 }
-text {
+.text {
 	padding-left:250px;
 }
 .float-left {
