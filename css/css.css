@@ -29,7 +29,7 @@ p {
 	margin-top: 120px;
 }
 p,ul {
-	font-family: 'Fedra Mono Normal';
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	line-height: 19px;
 	font-style: normal
@@ -57,7 +57,6 @@ img {
 	float: right;
 	margin: 0;
 	z-index: 50;
-	font-family: 'Roboto', sans-serif;
 }
 .center {
 	font-size: 2.5em;
@@ -382,6 +381,8 @@ ul {
 	overflow: hidden;
 	padding: 0
 }
+
+}
 .story {
 	left:20%;
 	position:absolute;
@@ -391,8 +392,7 @@ ul {
 .story .float-left,.story .float-right,.story .two-text {
 	padding: 260px 0 0 0;
 	position: relative;
-	width: 700px;
-	font-family: 'Roboto', sans-serif;
+	width: 700px
 }
 .float-center-w {
 	padding: 200px 0 0 180px;
