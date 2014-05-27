@@ -111,6 +111,7 @@ ul {
 	width: 100%
 }
 #one {
+	background: url(../img/stafulia.png) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1800px;
 	margin: 0;
