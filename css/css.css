@@ -111,7 +111,7 @@ ul {
 	width: 100%
 }
 #one {
-	background: url(../img/stafulia.png) 50% 0 no-repeat fixed;
+	background: url(../img/stafulia.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1800px;
 	margin: 0;
@@ -245,6 +245,7 @@ ul {
 }
 @media only screen and (max-width: 1900px) and (max-height: 1200px) {
 #one {
+	background: url(../img/stafulia.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1200px;
 	margin: 0;
