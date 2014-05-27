@@ -166,7 +166,7 @@ ul {
 	padding: 0
 }
 #four .bg {
-	background: url(../img/podcasts.png);
+	background: url(../img/peponi.jpg) 50% 200% no-repeat fixed;
 	height: 275px;
 	margin: 70px 0 0 0;
 	padding: 0;
@@ -298,7 +298,7 @@ ul {
 	z-index: 1
 }
 #four {
-	background: url(../img/peponi.jpg) 250px 100px no-repeat fixed;
+	background: url(../img/peponi.jpg) 50% 200% no-repeat fixed;
 	color: black;
 	height: 1200px;
 	margin: 0;
