@@ -4,6 +4,9 @@
 	src: url('../fonts/fedra_mono_normal.woff') format('woff'); 
 	src: url('../fonts/fedra_mono_normal.ttf') format('truetype'); 
 }
+
+@import url(http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic-ext);
+
 body {
 	margin: 0;
 	min-width: 980px;
@@ -54,6 +57,7 @@ img {
 	float: right;
 	margin: 0;
 	z-index: 50;
+	font-family: 'Roboto', sans-serif;
 }
 .center {
 	font-size: 2.5em;
@@ -378,8 +382,6 @@ ul {
 	overflow: hidden;
 	padding: 0
 }
-
-}
 .story {
 	left:20%;
 	position:absolute;
@@ -389,7 +391,8 @@ ul {
 .story .float-left,.story .float-right,.story .two-text {
 	padding: 260px 0 0 0;
 	position: relative;
-	width: 700px
+	width: 700px;
+	font-family: 'Roboto', sans-serif;
 }
 .float-center-w {
 	padding: 200px 0 0 180px;
