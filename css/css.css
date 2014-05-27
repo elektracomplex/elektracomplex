@@ -15,10 +15,12 @@ body {
 li {
 	list-style: none;
 }
-#cred li {
-	list-style: none;
-	margin: 0 0 20px 0;
-	font-size: 24px;
+#cred {
+	-ms-transform: rotate(-15deg); /* IE 9 */
+	-webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
+	transform: rotate(-15deg);
+	position: absolute
+	bottom:0px;
 }
 a {
 	font-family: 'Fedra Mono Normal';
